@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ligeirinho</title>
-    <link rel="stylesheet" href="..\pages\css\style.css" />
+    <link rel="stylesheet" href="..\css\style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
   </head>
-  <body>
+  <body class="body">
     <section class="header_section">
       <input type="checkbox" id="check" />
       <header class="header">
@@ -32,18 +32,75 @@
         </label>
       </header>
       <div class="content">
-        <div class="info">
-          <h2>Ligeirinho Água e gÁs <br /><span>Ligeiro</span></h2>
-          <p>
-            Lorem ipsum dolor sit amet. Est dolorem perspiciatis ea error modi
-            et minima omnis est quia perspiciatis. Vel voluptas voluptatem in
-            exercitationem odio ut necessitatibus laboriosam hic esse sequi ut
-            voluptatem asperiores sed expedita omnis est eligendi nihil. Qui
-            culpa quaerat quo officia aspernatur et debitis eveniet ex animi
-            aliquid eum quisquam dolores et commodi fugit sed quis quis. Ex
-            totam accusantium et ullam nostrum id excepturi molestiae.
-          </p>
-          <a href="#" class="info-btn">Mais informações</a>
+        <!--Slider Begin-->
+        <div class="carousel">
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+              <input type="radio" name="radio-btn" id="radio4" />
+              <!--Slide Imgs-->
+              <div class="slide first">
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1JBUCPQ8ts-nJYK0d4waGf-xeBCpt8deM"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1tLfaM_gU91xoVgtGNIcRxR7LNjvAzLbw"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1dqlMW85BnTaW98KJyvKj3Q7io1s5vv_c"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1mV8865kTwyCmmjKx7tjNrjQuUeY0tGpK"
+                  alt=""
+                />
+              </div>
+
+              <!--Slide imgs end-->
+              <!--Slide Auto-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--Slide Auto end-->
+              <!--Slide Manual-->
+              <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+              </div>
+              <!--Slide Manual end-->
+            </div>
+          </div>
+        </div>
+        <!--Slider End-->
+        <div class="wrapper_info">
+          <div class="info">
+            <h2>Ligeirinho Água e gÁs <br /><span>Ligeiro</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet. Est dolorem perspiciatis ea error modi
+              et minima omnis est quia perspiciatis. Vel voluptas voluptatem in
+              exercitationem odio ut necessitatibus laboriosam hic esse sequi ut
+              voluptatem asperiores sed expedita omnis est eligendi nihil. Qui
+              culpa quaerat quo officia aspernatur et debitis eveniet ex animi
+              aliquid eum quisquam dolores et commodi fugit sed quis quis. Ex
+              totam accusantium et ullam nostrum id excepturi molestiae.
+            </p>
+            <a href="#" class="info-btn">Mais informações</a>
+          </div>
         </div>
       </div>
       <div class="media-icons">
@@ -57,33 +114,103 @@
     <div class="Banner1">
       <div class="BannerFlex">
         <div class="wrapper">
-        <div class="alinhamento1">
-          <h6>PROPOSITO DA ÁGUA</h6>
-          <h3>NUTRIR O APETITE DAS PESSOAS DE TRANSFORMAREM SEUS MUNDOS</h3>
-          <p>
-            Lorem ipsum dolor sit amet. Est dolorem perspiciatis ea error modi
-            et minima omnis est quia perspiciatis. Vel voluptas voluptatem in
-            exercitationem odio ut necessitatibus laboriosam hic esse sequi ut
-            voluptatem asperiores sed expedita omnis est eligendi nihil. Qui
-            culpa quaerat quo officia aspernatur et debitis eveniet ex animi
-          </p>
-          <a href="">Saiba Mais</a>
-        </div>
+          <div class="alinhamento1">
+            <h6>PROPOSITO DA ÁGUA</h6>
+            <h3>NUTRIR O APETITE DAS PESSOAS DE TRANSFORMAREM SEUS MUNDOS</h3>
+            <p>
+              Lorem ipsum dolor sit amet. Est dolorem perspiciatis ea error modi
+              et minima omnis est quia perspiciatis. Vel voluptas voluptatem in
+              exercitationem odio ut necessitatibus laboriosam hic esse sequi ut
+              voluptatem asperiores sed expedita omnis est eligendi nihil. Qui
+              culpa quaerat quo officia aspernatur et debitis eveniet ex animi
+            </p>
+            <a href="">Saiba Mais</a>
+          </div>
         </div>
         <div class="wrapper2">
-        <div class="alinhamento2">
-          <h6>PROPOSITO DA ÁGUA</h6>
-          <h3>NUTRIR O APETITE DAS PESSOAS DE TRANSFORMAREM SEUS MUNDOS</h3>
+          <div class="alinhamento2">
+            <h6>PROPOSITO DA ÁGUA</h6>
+            <h3>NUTRIR O APETITE DAS PESSOAS DE TRANSFORMAREM SEUS MUNDOS</h3>
+            <p>
+              Lorem ipsum dolor sit amet. Est dolorem perspiciatis ea error modi
+              et minima omnis est quia perspiciatis. Vel voluptas voluptatem in
+              exercitationem odio ut necessitatibus laboriosam hic esse sequi ut
+              voluptatem asperiores sed expedita omnis est eligendi nihil. Qui
+              culpa quaerat quo officia aspernatur et debitis eveniet ex animi
+            </p>
+            <a href="">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+      <div id="gallery" class="gallery">
+        <div class="content_itens">
+          <img
+            src="https://drive.google.com/uc?export=view&id=1V5ErAjWu15VYXcB85U5Fr_wc3Ac35y2O"
+            alt=""
+          />
+          <h3>Botijão de Gás</h3>
+          <button class="addToCartButton buy btn btn success">
+            Adicionar ao Carrinho
+          </button>
+        </div>
+        <div class="content_itens">
+          <img
+            src="https://drive.google.com/uc?export=view&id=1KeMfflz0CaLPyJ58cHe3p2QyrN4B0vSE"
+            alt=""
+          />
+          <h3>Galão de Água 20L</h3>
+          <button class="addToCartButton buy btn btn success">
+            Adicionar ao Carrinho
+          </button>
+        </div>
+        <div class="content_itens">
+          <img
+            src="https://drive.google.com/uc?export=view&id=1INmGVN_oCEz1VSSHKX_ZJ3weqMoA5ccb"
+            alt=""
+          />
+          <h3>Carvão</h3>
+          <button class="addToCartButton buy btn btn success">
+            Adicionar ao Carrinho
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <ul>
+          <h3>Ligeirinho</h3>
           <p>
             Lorem ipsum dolor sit amet. Est dolorem perspiciatis ea error modi
             et minima omnis est quia perspiciatis. Vel voluptas voluptatem in
             exercitationem odio ut necessitatibus laboriosam hic esse sequi ut
-            voluptatem asperiores sed expedita omnis est eligendi nihil. Qui
-            culpa quaerat quo officia aspernatur et debitis eveniet ex animi
+            voluptatem asperiores sed expedita omnis est eligendi nihil.
           </p>
-          <a href="">Saiba Mais</a>
+          <div class="social">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </ul>
+        <ul>
+          <h3>Link</h3>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+        </ul>
+        <ul>
+          <h3>Localização</h3>
+          <li><a href="">Home</a></li>
+          <li><a href="">Home</a></li>
+        </ul>
+        <ul>
+          <h3>Contatos</h3>
+          <li><p>WhatsApp</p></li>
+          <li><p>Telefone</p></li>
+          <li><p>Email</p></li>
+        </ul>
       </div>
-      </div>
-    </div>
+    </footer>
   </body>
+
+  <script src="..\script.js"></script>
 </html>
