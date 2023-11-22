@@ -115,7 +115,7 @@
 .content {
   margin: 60px 100px;
   display: grid;
-  gap: 300px;
+  gap: 100px;
   grid-template-areas: "infos infos carousels";
 }
 
